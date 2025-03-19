@@ -1,0 +1,78 @@
+body{
+    
+    color: white;
+    background: orange;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container span{
+    font-size: 50px;
+}
+
+.wrap{
+    border: 3px solid white;
+    margin-top:25px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+#stop{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+#stop:hover {
+
+    background-color: white ; /* Change color when hovered */
+    color: orange;
+}
+
+#start{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+#start:hover {
+
+    background-color: white ; /* Change color when hovered */
+    color: orange;
+}
+
+#reset{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+#reset:hover {
+
+    background-color: white ; /* Change color when hovered */
+    color: orange;
+}
+
+
+
+
